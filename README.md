@@ -37,7 +37,7 @@ poetry run python pdfs_to_images.py
 
 ### 6. Crie suas labels
 
-O utilize o `labelImg` para rotular as imagens e salve no diretório labels
+O utilize o `labelImg` para rotular as imagens e salve no diretório labels.
 
 ```shell
 poetry run labelImg images classes.txt  
@@ -45,7 +45,7 @@ poetry run labelImg images classes.txt
 
 ### 7. Crie a estrutura de datasets
 
-Com o comando abaixo crie o diretório de dataset movendo todas as imagens e labels
+Com o comando abaixo crie o diretório de dataset movendo todas as imagens e labels:
 
 ```shell
 poetry run labelImg images classes.txt  
@@ -53,7 +53,7 @@ poetry run labelImg images classes.txt
 
 ### 8. Crie o arquivo dataset.yaml
 
-Crie o arquivo conforme o exemplo abaixo
+Crie o arquivo conforme o exemplo abaixo:
 
 ```yaml
 train: dataset/images/train
@@ -77,13 +77,13 @@ names: # Nome das classes
 
 ### 9. Inicie o treinamento
 
-Para iniciar o treinamento utilize o comando abaixo
+Para iniciar o treinamento utilize o comando abaixo:
 
 ```shell
 poetry run python training_model.py
 ```
 
-### 10. Predicação e extração:
+### 10. Predicação e extração
 
 Para realizar a predicação das imagens e verificar a extração, utilize o comando abaixo:
 
