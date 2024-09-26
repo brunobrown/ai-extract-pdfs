@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ai-extract-pdfs"
+version = "0.1.0"
+description = ""
+authors = ["brunobrown <brunobrown.86@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+setuptools = "^75.1.0"
+pdf2image = "^1.17.0"
+labelimg = "^1.8.6"
+ultralytics = "^8.2.101"
+pytesseract = "^0.3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

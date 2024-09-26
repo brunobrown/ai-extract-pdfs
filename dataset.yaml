@@ -1,0 +1,17 @@
+train: dataset/images/train
+val: dataset/images/val
+
+nc: 4  # Número de classes
+
+names: # Nome das classes
+  0: cnpj
+  1: date
+  2: value
+  3: barcode
+
+#names: [ # Nome das classes em formato de lista
+#  'cnpj',
+#  'date',
+#  'value',
+#  'barcode'
+#]
